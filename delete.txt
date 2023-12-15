@@ -1,0 +1,20 @@
+*&---------------------------------------------------------------------*
+*& Report  ZDelete                                                     *
+*&                                                                     *
+*&---------------------------------------------------------------------*
+*&                                                                     *
+*&                                                                     *
+*&---------------------------------------------------------------------*
+
+REPORT  ZDelete                               .
+
+tables ZExemplo.
+
+
+**Cria campo na tela
+parameters:
+  p_id type zpersno.
+
+**Deleta da Tabela Zexemplo a linha cujo o ID é Igual fornecido na tela
+Delete from zexemplo where Id = p_id.
+

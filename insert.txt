@@ -1,0 +1,28 @@
+*&---------------------------------------------------------------------*
+*& Report  ZInsert                                                     *
+*&                                                                     *
+*&---------------------------------------------------------------------*
+*&                                                                     *
+*&                                                                     *
+*&---------------------------------------------------------------------*
+
+REPORT ZInsert
+
+tables ZExemplo.
+
+**Cria campo na tela
+parameters:
+  p_id type zpersno,
+  p_nome type znome,
+  p_dtnasc type zdtnasc,
+  p_idade type zidade,
+  p_sexo type zsexo.
+
+zexemplo-ID = p_id.
+zexemplo-Nome = p_nome.
+zexemplo-dtnasc = p_dtnasc.
+zexemplo-idade = p_idade.
+zexemplo-sexo = p_sexo.
+
+Insert zexemplo.
+
