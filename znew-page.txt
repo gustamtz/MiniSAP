@@ -1,0 +1,21 @@
+*&---------------------------------------------------------------------*
+*& Report  ZNEWPAGE                                                    *
+*&                                                                     *
+*&---------------------------------------------------------------------*
+*&                                                                     *
+*&                                                                     *
+*&---------------------------------------------------------------------*
+
+
+**Declaração do tamanho da página.
+REPORT  ZNEWPAGE  Line-Size 175
+                  Line-Count 46
+                  No Standard Page Heading.
+
+Write 'Teste nova página’.
+
+**Insere nova página no programa.
+new-page.
+
+
+write 'Teste nova página’.
