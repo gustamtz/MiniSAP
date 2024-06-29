@@ -1,2 +1,2 @@
-# sap-abap
-ABAP studies on miniSAP
+# MiniSAP
+ABAP script
